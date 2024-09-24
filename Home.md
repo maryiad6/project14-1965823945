@@ -2,10 +2,10 @@
 
 Содержит документацио по проекту.
 
-* [постановка задачи] (intro)
+* [постановка задачи](intro)
 
-* [Bagawa » ponw nons3oearenel] (tasks)
+* [Bagawa » ponw nons3oearenel](tasks)
 
-* (объектная модель) (ob)ect-nodel)
+* [объектная модель](ob)ect-nodel)
 
-* (Стратегия дизайна] (desdon-strategy)
+* [Стратегия дизайна](desdon-strategy)
