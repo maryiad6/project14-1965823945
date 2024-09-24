@@ -4,7 +4,7 @@
 
 * [постановка задачи](intro)
 
-* [Bagawa » ponw nons3oearenel](tasks)
+* [Bagawa ponw nons3oearenel](tasks)
 
 * [объектная модель](object-nodel)
 
