@@ -6,6 +6,6 @@
 
 * [Bagawa » ponw nons3oearenel](tasks)
 
-* [объектная модель](ob)ect-nodel)
+* [объектная модель](object-nodel)
 
 * [Стратегия дизайна](desdon-strategy)
