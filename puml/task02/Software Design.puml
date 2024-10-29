@@ -1,0 +1,10 @@
+@startuml
+package "Проектирование" {
+    rectangle "База данных" as DB
+    rectangle "API" as API
+    rectangle "Пользовательский интерфейс" as UI
+
+    DB --> API : Хранение и извлечение данных
+    API --> UI : Предоставление интерфейса данных
+}
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+package "Большое исследование" {
+    rectangle "Изменения в экосистемах озер и рек" as Event1
+    rectangle "Влияние человеческой деятельности" as Event2
+    rectangle "Сезонные колебания уровня воды" as Event3
+    rectangle "Природные катастрофы" as Event4
+
+    Event1 --> Event2
+    Event1 --> Event3
+    Event2 --> Event4
+}
+@enduml

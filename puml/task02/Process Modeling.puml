@@ -1,0 +1,12 @@
+@startuml
+package "Моделирование процесса" {
+    rectangle "Мониторинг состояния водоемов" as Process1
+    rectangle "Оценка качества воды" as Process2
+    rectangle "Программы по охране окружающей среды" as Process3
+    rectangle "Туризм и рекреация" as Process4
+
+    Process1 --> Process2
+    Process2 --> Process3
+    Process3 --> Process4
+}
+@enduml
