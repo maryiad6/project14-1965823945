@@ -1,0 +1,11 @@
+@startuml
+node "Веб-сервер" {
+  artifact "Приложение блога" as app
+}
+
+node "Сервер базы данных" {
+  database "База данных блога" as db
+}
+
+app --> db : подключается к
+@enduml

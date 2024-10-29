@@ -1,0 +1,24 @@
+@startuml
+entity "Пользователь" {
+  +user_id : int
+  +имя : string
+  +email : string
+}
+
+entity "Пост" {
+  +post_id : int
+  +заголовок : string
+  +содержание : string
+  +user_id : int
+}
+
+entity "Комментарий" {
+  +comment_id : int
+  +текст : string
+  +post_id : int
+  +user_id : int
+}
+
+Пользователь ||--o{ Пост : создает
+Пост ||--o{ Комментарий : содержит
+@enduml
